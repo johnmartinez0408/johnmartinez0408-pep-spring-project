@@ -20,6 +20,7 @@ public class Message {
      * The id for the user who has posted this message. We will assume that this is provided by the front-end of this
      * application.
      */
+    
     @Column (name="postedBy")
     private Integer postedBy;
     /**
